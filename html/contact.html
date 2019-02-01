@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="../assets/img/man-favicon.png" />
+  <title>Dean's Contact</title>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome Icons -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="icon"><a href="../index.html">Portfolio</a></div>
+      <div class="navbar-right">
+        <ul class="navbar-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./skills.html">Skills</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./resources.html">Resources</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- navbar-right -->
+    </div>
+    <!-- navbar -->
+  </header>
+
+  <section id="contact">
+    <h1>Contact</h1>
+  </section>
+
+  <div class="contact-information">
+    <p>
+      Have any question? Feel free to contact me by filling in the form below:
+    </p>
+
+    <form>
+      <label for="name"></label>
+      <input class="personal-information" type="text" id="name" name="name" placeholder="Your name" pattern="[A-Z]{1}[a-z]{1,15}+[A-Z]{1}[a-z]{1,15}"
+        required />
+
+      <label for="email"></label>
+      <input class="personal-information" type="email" id="email" name="email" placeholder="Your email" pattern="[a-zA-Z0-9._-]+@+[a-z0-9]+.+[a-z0-9]"
+        required />
+      <br />
+      <textarea class="comment-area" rows="5" cols="30" name="comment" placeholder="Your message" required></textarea>
+      <br />
+      <input class="comment-button" type="submit" value="Get in touch" />
+    </form>
+  </div>
+  <!-- contact-information -->
+
+  <hr />
+  <footer>
+    <h4>
+      <a href="https://www.integrify.fi/" target="_blank">Integrify Academy</a>
+    </h4>
+
+    <div class="social">
+      <a href="https://medium.com/@dean.t.phan" target="_blank"><i class="fa fa-medium"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/dean-phan-7aa554178/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/DBi1512" target="_blank"><i class="fa fa-github"></i></a>
+    </div>
+    <!-- social -->
+  </footer>
+</body>
+
+</html>
